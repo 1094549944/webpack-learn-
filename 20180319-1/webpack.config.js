@@ -1,0 +1,9 @@
+//使用commonjs规范
+module.exports={
+    entry:{
+        app:'./app.js'
+    },
+    output:{
+        filename:'[name].[hash:5].js'
+    }
+}
